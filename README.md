@@ -1,18 +1,23 @@
-# **E-commerce API** 🛒🚀  
-
 ### **TechZone E-Commerce API ⚡🛒**  
 TechZone E-Commerce API is a powerful backend solution built with **.NET Core** for managing an online store specializing in **electronics and tech products**. It provides robust features such as **user authentication, product management, shopping cart functionality, order processing, and secure payments**.  
 
 This API follows **RESTful principles**, supports **JWT authentication**, and is designed with best practices for **scalability, security, and maintainability**.  
 
-#### **Key Features**  
+---
+
+## **Key Features**  
 ✅ **User Authentication & Authorization** – Secure login using **JWT-based authentication** and role-based access control.  
 ✅ **Product Management** – Add, update, and manage a catalog of **electronic devices, accessories, and gadgets**.  
 ✅ **Shopping Cart & Orders** – Enable users to **add products to the cart, place orders, and track them in real-time**.  
 ✅ **Payments Integration** – Support for **multiple payment gateways** for seamless transactions.  
 ✅ **Efficient API Design** – Optimized for performance, following **clean architecture** principles.  
 
-This API serves as the backbone for a **modern and scalable** e-commerce platform focused on the **electronics industry**. 🚀💻  
+---
+
+## **Database Design & Normalization**  
+- **ERD (Entity-Relationship Diagram):** The database is designed using **a well-structured ERD** that defines the relationships between entities such as **Users, Products, Orders, Payments, and Categories**.  
+- **Normalization:** The database follows **Normalization rules** (up to **3NF**) to **eliminate redundancy**, ensure **data integrity**, and improve **query performance**.  
+- **Mapping:** Proper **Entity Mapping** is implemented using **EF Core**, ensuring optimized **table relationships, foreign keys, and constraints** for smooth database operations.
 
 ---
 
